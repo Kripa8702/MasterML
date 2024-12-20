@@ -24,6 +24,7 @@ def gradient_descent(x,y,lr=0.01,epochs=3000):
     b = b * (y.max() - y.min()) + y.min() - m * x.min()
 
     return m, b
+    
 
 
 if __name__ == '__main__':
